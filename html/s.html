@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hackathon</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #facbd371;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 265vh;
+    }
+    .custom-button {
+      background-color: rgb(206, 55, 80);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>ROOM SHUFFLING DATA</h1>
+
+  <div class="table-container">
+    <table style="width:100%" id="dataTable">
+    <tr>
+      <th>Girls Names</th>
+      <th>Room No.</th>
+      <th>Bed No.</th>
+    </tr>
+    <tr>
+      <td>vaishnavi paropate</td>
+      <td>01</td>
+      <td>A</td>
+    </tr>
+    <td>Rinkal Bahurupi</td>
+      <td>01</td>
+      <td>b</td>
+    </tr>
+    <td>Pragati Dhawale</td>
+    <td>01</td>
+    <td>c</td>
+  </tr>
+  <td>Neha Dhore</td>
+  <td>0r2</td>
+  <td>A</td>
+</tr>
+<td>Neha Saraf</td>
+<td>02</td>
+<td>b</td>
+</tr>
+<td>Sejal Pachaghare</td>
+<td>02</td>
+<td>c</td>
+</tr>
+<td>Shweta Darwai</td>
+<td>03</td>
+<td>A</td>
+</tr>
+<td>Samiksha Neware</td>
+<td>03</td>
+<td>B</td>
+</tr>
+<td>Sapna Bhamdare</td>
+<td>03</td>
+<td>c</td>
+</tr>
+<td>Trupri Nighot</td>
+<td>04</td>
+<td>A</td>
+</tr>
+<td>Gaytri Gnorkar</td>
+<td>04</td>
+<td>B</td>
+</tr>
+<td>Sarika Kale</td>
+<td>04</td>
+<td>c</td>
+</tr>
+<td>Pragati Dhule</td>
+<td>05</td>
+<td>A</td>
+</tr>
+<td>Pragati Dike</td>
+<td>05</td>
+<td>B</td>
+</tr>
+<td>Pragati Chaware</td>
+<td>05</td>
+<td>C</td>
+</tr>
+<td>Priynka Dhomne</td>
+<td>06</td>
+<td>A</td>
+</tr>
+<td>Yamini Shende</td>
+<td>06</td>
+<td>B</td>
+</tr>
+<td>Samiksha Mohekar</td>
+<td>06</td>
+<td>C</td>
+</tr>
+<td>Samiksha Khadke</td>
+<td>07</td>
+<td>A</td>
+</tr>
+<td>Vaishnavi Hemane</td>
+<td>07</td>
+<td>B</td>
+</tr>
+<td>VAishnavi Kakde</td>
+<td>07</td>
+<td>C</td>
+</tr>
+<td>VAishnavi Kale</td>
+<td>08</td>
+<td>A</td>
+</tr>
+<td>VAishnavi Bhamburkar</td>
+<td>08</td>
+<td>B</td>
+</tr>
+<td>VAishnavi Khode</td>
+<td>08</td>
+<td>C</td>
+</tr>
+<td>vishakha Malewar</td>
+<td>09</td>
+<td>A</td>
+</tr>
+<td>Vishakha wankhade</td>
+<td>09</td>
+<td>B</td>
+</tr>
+<td>Shweta jumde</td>
+<td>09</td>
+<td>C</td>
+</tr>
+<td>Nikita Dagwar</td>
+<td>010</td>
+<td>A</td>
+</tr>
+<td>Mansi Kundalkar</td>
+<td>10</td>
+<td>B</td>
+</tr>
+<td>Shubhnagi Dhage</td>
+<td>10</td>
+<td>C</td>
+</tr>
+<td>Monali Dhole</td>
+<td>011</td>
+<td>A</td>
+</tr>
+<td>Mansvi </td>
+<td>11</td>
+<td>B</td>
+</tr>
+<td>Amisha Sarkate</td>
+<td>11</td>
+<td>C</td>
+</tr>
+<td>Kajal Dhomane</td>
+<td>12</td>
+<td>A</td>
+</tr>
+<td>Sweety Kdu</td>
+<td>12</td>
+<td>B</td>
+</tr>
+<td>Adidti Dahake</td>
+<td>12</td>
+<td>C</td>
+</tr>
+<td>GAytri Mankar</td>
+<td>13</td>
+<td>A</td>
+</tr>
+<td>Pooja Kolhe</td>
+<td>13</td>
+<td>B</td>
+</tr>
+<td>Mansi Sakhare</td>
+<td>13</td>
+<td>C</td>
+</tr>
+<td>Pranita Dhakate</td>
+<td>14</td>
+<td>A</td>
+</tr>
+<td>Radha Chudhari</td>
+<td>14</td>
+<td>B</td>
+</tr>
+<td>Dhanshree Bilbile</td>
+<td>14</td>
+<td>C</td>
+</tr>
+<td>Roshani Nayde</td>
+<td>015</td>
+<td>A</td>
+</tr>
+<td>Papiya Mohod</td>
+<td>15</td>
+<td>B</td>
+</tr>
+<td>Sakshi Parskar</td>
+<td>15</td>
+<td>C</td>
+</tr>
+    <!-- Add more rows here -->
+  </table>
+
+  <button class="custom-button" id="shuffleBtn"><b>Shuffling</b></button>
+
+  <script>
+    const shuffleBtn = document.getElementById('shuffleBtn');
+    const dataTable = document.getElementById('dataTable');
+    
+    shuffleBtn.addEventListener('click', shuffleData);
+
+    function shuffleArray(array) {
+      const shuffled = [...array];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      return shuffled;
+    }
+
+    function shuffleData() {
+      const rows = Array.from(dataTable.rows).slice(1); // Exclude header row
+      
+      const shuffledRows = shuffleArray(rows);
+
+      shuffledRows.forEach((row, index) => {
+        const roomNo = Math.floor(index / 3) + 1;
+        const bedNo = String.fromCharCode(65 + index % 3); // 'A', 'B', 'C'
+        
+        const cells = row.cells;
+        cells[1].textContent = roomNo;
+        cells[2].textContent = bedNo;
+        
+        dataTable.appendChild(row);
+      });
+    }
+  </script>
+</body>
+</html>
